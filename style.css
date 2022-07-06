@@ -6,7 +6,10 @@ h1{
     font-size: 70px;
     font-weight: 600;
 }
-.bg-img{
+
+    /* banner part starts here */
+
+.banner{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)) , url(images/donation7.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,42 +25,30 @@ p{
   margin-top: -5%;
 }
 .link-button{
-    background: linear-gradient(salmon,tomato);
+    background: linear-gradient(maroon,tomato);
     text-decoration: none;
 
     margin-left: 30%;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 10px;
     color: white;
     font-weight: 700;
 }
-.link-button-2{
-    background: linear-gradient(salmon,tomato);
-    text-decoration: none;
-    margin-left: 20%;
-    padding:10px 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: 700;
-} 
-.second-page{
+
+    /* banner part ends here */
+
+    /* donate today starts here */
+
+.donate-today{
     height: 80vh;
 }
 #donate{
     color: black;
     text-decoration: none;
     font-size: 50px;
-    font-weight: 600;
-    margin-top: 10%;
+    font-weight: bold;
+    margin-top: 8%;
     margin-left: 40%;
-}
-#donate-plan{
-    color: black;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: 600;
-    margin-top: 10%;
-    margin-left: 5%;
 }
 #donate-para{
     color: grey;
@@ -65,8 +56,43 @@ p{
     text-decoration: none;
     font-size: 20px;
     margin-left: 15%;
-
 }
+.flex-container{
+    display: flex;
+    margin-left: 18%;
+    margin-right: 20%;
+    padding-bottom: 70px;
+}
+#number {
+    width: 60%;
+    padding: 10px;
+    margin-left: 290px;
+    margin-bottom: 50px;
+}
+.link-button-2{
+    background: linear-gradient(maroon,tomato);
+    text-decoration: none;
+    margin-left: 45%;
+    padding:15px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+} 
+
+
+/* donate today ends here */
+
+/* donation plan starts here */
+
+#donate-plan{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
 #donate-plan-para{
     color: grey;
     font-weight: 200;
@@ -75,26 +101,28 @@ p{
     margin-left: 15%;
     padding-top: 50px;
 }
-.flex-container{
-    display: flex;
-    justify-content: center;
-}
-#amount{
-    background-color: rgb(233, 233, 233);
-    color: grey;
-    font-weight: 600;
-    width: 50px;
+
+.amount{
+    width: 40%;
+    margin-right: 20px;
     padding: 50px;
-    margin: 50px;
-    /* display: inline-flex; */
+    background-color: rgba(59, 56, 56, 0.062);
     border-radius: 10px;
+    color: gray;
+    font-size: 25px;
+    font-weight: 900;
   }
-.textarea{
-    padding-left: 30%;
-}
+  #div-500{
+    border: 2px solid tomato;
+    background-color: rgba(255, 38, 0, 0.319);
+    color: rgb(255, 115, 115);
+  }
 
 .donation-plan{
     margin-bottom: 130px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .donation-plan h1{
     font-size: 60px;
@@ -130,3 +158,90 @@ p{
     text-align: left;
     color: grey;
 }
+#food-section{
+    background-color: rgba(135, 206, 250, 0.199);
+}
+#shelter-section{
+    background-color: rgba(255, 192, 203, 0.253);
+}
+#education-section{
+    background-color: rgba(255, 166, 0, 0.158);
+}
+
+/* donation plan ends here */
+
+/* get my update section starts here */
+
+.update-section {
+    margin-bottom: 120px;
+}
+
+.update-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 3%;
+    text-align: center;
+    color: rgb(2, 3, 3);
+}
+
+.update-section p {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+form {
+    background-color: rgba(255, 166, 0, 0.158);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 80px;
+    padding-left: 13%;
+}
+
+#email-id {
+    padding: 15px;
+    width: 55%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(192, 192, 192, 0.336);
+}
+
+#button-id {
+    padding-top: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-left: -5px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(maroon,tomato);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+/* get my update section ends here */
+
+/* footer starts here */
+
+footer {
+    position: center;
+    background-color: black;
+    padding: 5%;
+}
+
+footer span {
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    color:salmon ;
+    font-size: 40px;
+}
+footer p {
+    text-align: center;
+    color: gray;
+    padding-top: 40px;
+}
+
+/* footer ends here */
